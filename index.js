@@ -20,7 +20,6 @@ const PostsSchema = {
   title: String,
   content: String
 };
-
 const Post = mongoose.model("Post", PostsSchema);
 
 app.get("/", function(req, res){
